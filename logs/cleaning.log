@@ -1,0 +1,16 @@
+[2025-12-14 19:38:38] Downloading weather_data_raw.csv from Bronze...
+[2025-12-14 19:38:38] Downloaded 5250 records from weather_data_raw.csv
+[2025-12-14 19:38:38] Downloading traffic_data_raw.csv from Bronze...
+[2025-12-14 19:38:38] Downloaded 5250 records from traffic_data_raw.csv
+[2025-12-14 19:38:38] [WEATHER] Starting weather data cleaning...
+[2025-12-14 19:38:38] [WEATHER] Removed 128 duplicate records
+[2025-12-14 19:38:38] [WEATHER] Fixed 144 invalid dates
+[2025-12-14 19:38:38] [WEATHER] Fixed 74 temperature outliers
+[2025-12-14 19:38:38] [WEATHER] Weather cleaning complete: 4978 records (0.57s)
+[2025-12-14 19:38:38] [TRAFFIC] Starting traffic data cleaning...
+[2025-12-14 19:38:38] [TRAFFIC] Removed 130 duplicate records
+[2025-12-14 19:38:39] [TRAFFIC] Traffic cleaning complete: 4938 records (0.67s)
+[2025-12-14 19:38:39] [WEATHER] Saved to data/cleaned/weather_cleaned.parquet (4978 records)
+[2025-12-14 19:38:39] [TRAFFIC] Saved to data/cleaned/traffic_cleaned.parquet (4938 records)
+[2025-12-14 19:38:39] [WEATHER] Uploaded to silver/weather_cleaned.parquet
+[2025-12-14 19:38:40] [TRAFFIC] Uploaded to silver/traffic_cleaned.parquet
